@@ -2,14 +2,14 @@
 
 # run the task
 
-chmod +x task-cli.js
-task-cli.js add "Buy groceries"
-task-cli.js update 1 "Buy groceries and cook dinner"
-task-cli.js mark-in-progress 1
-task-cli.js list
-task-cli.js list done
-task-cli.js list in-progress
-task-cli.js list todo
+chmod +x task-cli.js<br>
+task-cli.js add "Buy groceries"<br>
+task-cli.js update 1 "Buy groceries and cook dinner"<br>
+task-cli.js mark-in-progress 1<br>
+task-cli.js list<br>
+task-cli.js list done<br>
+task-cli.js list in-progress<br>
+task-cli.js list todo<br>
 
 
 #! ---> shebang
@@ -29,14 +29,14 @@ In a Node.js CLI application, we use process.argv to get arguments passed to the
 
 Example:
 
-bash
-Copy
-Edit
-node task-cli.js add "Buy groceries"
-process.argv[0] → Path to Node.js executable.
-process.argv[1] → Path to the script (task-cli.js).
-process.argv[2] → The first argument (add in this case).
-process.argv[3] → The second argument ("Buy groceries" in this case).
+bash<br>
+Copy<br>
+Edit<br>
+node task-cli.js add "Buy groceries"<br>
+process.argv[0] → Path to Node.js executable.<br>
+process.argv[1] → Path to the script (task-cli.js).<br>
+process.argv[2] → The first argument (add in this case).<br>
+process.argv[3] → The second argument ("Buy groceries" in this case).<br>
 
 
 # find vs filter ----> find returns a object whereas filter returns a array
