@@ -1,3 +1,15 @@
+# run the task
+
+chmod +x task-cli.js
+task-cli.js add "Buy groceries"
+task-cli.js update 1 "Buy groceries and cook dinner"
+task-cli.js mark-in-progress 1
+task-cli.js list
+task-cli.js list done
+task-cli.js list in-progress
+task-cli.js list todo
+
+
 #! ---> shebang
 
 `#! /usr/bin/env node`
