@@ -1,3 +1,4 @@
+# PROJECT URL(GITHUB-ACTIVITY): https://roadmap.sh/projects/github-user-activity
 # PROJECT URL: https://roadmap.sh/projects/task-tracker
 
 # run the task
@@ -50,6 +51,11 @@ process.argv[3] → The second argument ("Buy groceries" in this case).<br>
 # npm link
 
 # Difference adding files in bin and script package.json
+
+Both bin and scripts are used for executing commands in Node.js projects, but they serve different purposes.<br>
+
+`bin`: The bin field in package.json is used to define executable commands that can be run globally when the package is installed.<br>
+`script`: The scripts section is used to define custom npm commands for development purposes.
 
 # JSON.stringify(tasks, null, 2)
 The JSON.stringify() function converts a JavaScript object into a JSON-formatted string. It takes up to three arguments:<br>
